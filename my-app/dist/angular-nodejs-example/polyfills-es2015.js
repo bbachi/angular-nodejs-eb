@@ -3024,7 +3024,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/bhargavbachina/Projects/angular-nodejs-example/my-app/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /Users/bhargavbachina/Projects/angular-nodejs-eb/my-app/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

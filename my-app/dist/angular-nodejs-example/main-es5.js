@@ -1116,7 +1116,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /Users/bhargavbachina/Projects/angular-nodejs-example/my-app/src/main.ts */
+    /*! /Users/bhargavbachina/Projects/angular-nodejs-eb/my-app/src/main.ts */
     "./src/main.ts");
     /***/
   }

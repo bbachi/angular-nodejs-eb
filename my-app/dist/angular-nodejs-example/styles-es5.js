@@ -447,15 +447,15 @@
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! /Users/bhargavbachina/Projects/angular-nodejs-example/my-app/node_modules/bootstrap/dist/css/bootstrap.min.css */
+    /*! /Users/bhargavbachina/Projects/angular-nodejs-eb/my-app/node_modules/bootstrap/dist/css/bootstrap.min.css */
     "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
     __webpack_require__(
-    /*! /Users/bhargavbachina/Projects/angular-nodejs-example/my-app/node_modules/ngx-bootstrap/datepicker/bs-datepicker.css */
+    /*! /Users/bhargavbachina/Projects/angular-nodejs-eb/my-app/node_modules/ngx-bootstrap/datepicker/bs-datepicker.css */
     "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css");
 
     module.exports = __webpack_require__(
-    /*! /Users/bhargavbachina/Projects/angular-nodejs-example/my-app/src/styles.css */
+    /*! /Users/bhargavbachina/Projects/angular-nodejs-eb/my-app/src/styles.css */
     "./src/styles.css");
     /***/
   }

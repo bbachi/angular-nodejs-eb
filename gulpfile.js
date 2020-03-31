@@ -3,8 +3,6 @@ const del = require('del');
 const fs   = require('fs');
 const zip = require('gulp-zip');
 const log = require('fancy-log');
-const webpack_stream = require('webpack-stream');
-const webpack_config = require('./webpack.config.js');
 var exec = require('child_process').exec;
 
 const paths = {
@@ -49,7 +47,7 @@ function copyAngularCodeTask() {
 
 function copyNodeJSCodeTask() {
   log('building and copying server code into the directory')
-  return webpack_stream(webpack_config)
+  return src(['package.json', 'server.js'])
         .pipe(dest(`${paths.prod_build}`))
 }
 
